@@ -47,13 +47,15 @@ function App() {
           </div>
         </div>
 
-        {/* Right Column: Side Image (30%) */}
-        <div className="hidden lg:block lg:w-[30%] lg:h-screen sticky top-0">
-          <img
-            src="/sideimg.jpg"
-            alt="ORIXA Digital Agency"
-            className="w-full h-full object-cover"
-          />
+        {/* Right Column: Side Image (30%) — fixed on large screens */}
+        <div className="hidden lg:block">
+          <div className="fixed top-0 right-0 w-[30%] h-screen z-0">
+            <img
+              src="/sideimg.jpg"
+              alt="ORIXA Digital Agency"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </div>
     </div>
