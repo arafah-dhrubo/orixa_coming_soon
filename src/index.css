@@ -43,6 +43,11 @@ a:hover {
   opacity: 0.6;
 }
 
+/* Navbar left-side background clip-path */
+.clip-path-left-70 {
+  clip-path: polygon(0 0, 70% 0, 60% 100%, 0 100%);
+}
+
 @layer base {
   body {
     @apply antialiased;
